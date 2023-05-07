@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WUX-mi-H6g">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WUX-mi-H6g">
                                 <rect key="frame" x="0.0" y="92" width="414" height="804"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WUX-mi-H6g" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="8Jm-wG-Dkf"/>
+                            <constraint firstItem="WUX-mi-H6g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OTm-R2-EHY"/>
+                            <constraint firstItem="WUX-mi-H6g" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Umu-dp-bds"/>
+                            <constraint firstAttribute="bottom" secondItem="WUX-mi-H6g" secondAttribute="bottom" id="sq4-Or-5TU"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RWx-ZY-FWb">
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="4Li-AA-PIy">

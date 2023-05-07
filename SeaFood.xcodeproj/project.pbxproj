@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743C274F2A07F3A6007E1881 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 743C274E2A07F3A6007E1881 /* Inceptionv3.mlmodel */; };
 		74D2DB3C2A07E0AA009C7E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2DB3B2A07E0AA009C7E25 /* AppDelegate.swift */; };
 		74D2DB3E2A07E0AA009C7E25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2DB3D2A07E0AA009C7E25 /* SceneDelegate.swift */; };
 		74D2DB402A07E0AA009C7E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2DB3F2A07E0AA009C7E25 /* ViewController.swift */; };
 		74D2DB432A07E0AA009C7E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D2DB412A07E0AA009C7E25 /* Main.storyboard */; };
 		74D2DB452A07E0AE009C7E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D2DB442A07E0AE009C7E25 /* Assets.xcassets */; };
 		74D2DB482A07E0AE009C7E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D2DB462A07E0AE009C7E25 /* LaunchScreen.storyboard */; };
-		74D2DB502A07E102009C7E25 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 74D2DB4F2A07E102009C7E25 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		743C274E2A07F3A6007E1881 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		74D2DB382A07E0AA009C7E25 /* SeaFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D2DB3B2A07E0AA009C7E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74D2DB3D2A07E0AA009C7E25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		74D2DB442A07E0AE009C7E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74D2DB472A07E0AE009C7E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74D2DB492A07E0AE009C7E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74D2DB4F2A07E102009C7E25 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				74D2DB442A07E0AE009C7E25 /* Assets.xcassets */,
 				74D2DB462A07E0AE009C7E25 /* LaunchScreen.storyboard */,
 				74D2DB492A07E0AE009C7E25 /* Info.plist */,
-				74D2DB4F2A07E102009C7E25 /* Inceptionv3.mlmodel */,
+				743C274E2A07F3A6007E1881 /* Inceptionv3.mlmodel */,
 			);
 			path = SeaFood;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74D2DB402A07E0AA009C7E25 /* ViewController.swift in Sources */,
-				74D2DB502A07E102009C7E25 /* Inceptionv3.mlmodel in Sources */,
+				743C274F2A07F3A6007E1881 /* Inceptionv3.mlmodel in Sources */,
 				74D2DB3C2A07E0AA009C7E25 /* AppDelegate.swift in Sources */,
 				74D2DB3E2A07E0AA009C7E25 /* SceneDelegate.swift in Sources */,
 			);
